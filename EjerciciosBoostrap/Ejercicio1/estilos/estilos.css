@@ -1,0 +1,43 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1024px;
+  margin: 0 auto;
+  background: gray;
+}
+
+.cabeza {
+  background: tomato;
+  height: 150px;
+  flex: 1 0 100%;
+}
+
+.izquierda {
+  background: gold;
+  height: 200px;
+  flex: 1 0 25%;
+}
+
+.centro {
+  background: deepskyblue;
+  height: 200px;
+  flex: 1 0 75%;
+}
+
+.pie {
+  background: lightgreen;
+  height: 100px;
+  flex: 1 0 100%;
+}
+
+/* Media Query para hacerlo responsivo */
+@media (max-width: 660px) {
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .izquierda,
+  .centro {
+    flex: 1 0 100%;
+  }
+}

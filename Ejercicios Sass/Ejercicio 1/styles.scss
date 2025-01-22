@@ -1,0 +1,50 @@
+// Variables
+$button-colors: (
+  primary-button: #3498db,
+  secondary-button: #95a5a6,
+  success-button: #2ecc71,
+  danger-button: #e74c3c,
+);
+
+// Estilos generales
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+// Estilos de botones
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  // Generar estilos con el mapa de colores
+  @each $name, $color in $button-colors {
+    &.#{$name} {
+      background-color: $color;
+
+      &:hover {
+        background-color: darken($color, 10%);
+      }
+    }
+  }
+}

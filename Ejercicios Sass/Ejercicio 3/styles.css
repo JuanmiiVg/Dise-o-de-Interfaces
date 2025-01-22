@@ -1,0 +1,72 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #3498db;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+p.important-text {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+button.primary-button {
+  background-color: #3498db;
+}
+button.primary-button:hover {
+  background-color: #217dbb;
+}
+button.secondary-button {
+  background-color: #2ecc71;
+}
+button.secondary-button:hover {
+  background-color: #25a25a;
+}
+button.buy-button {
+  background-color: #f39c12;
+}
+button.buy-button:hover {
+  background-color: #c87f0a;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.product.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=styles.css.map */

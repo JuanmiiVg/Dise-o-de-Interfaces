@@ -1,0 +1,12 @@
+@mixin card-style {
+  border: 1px solid $primary-color;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  @include card-style;
+  margin: 20px auto;
+  background-color: $secondary-color;
+  color: $primary-color;
+}

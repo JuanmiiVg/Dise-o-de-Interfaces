@@ -1,0 +1,59 @@
+.caja-1 {
+  background-color: #ff5733;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.caja-1:hover {
+  background-color: #ff2d00;
+}
+
+.caja-2 {
+  background-color: #33ff57;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.caja-2:hover {
+  background-color: #00ff2d;
+}
+
+.caja-3 {
+  background-color: #3357ff;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.caja-3:hover {
+  background-color: #002dff;
+}
+
+.caja-4 {
+  background-color: #f5a623;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.caja-4:hover {
+  background-color: #db8c0a;
+}
+
+.caja-5 {
+  background-color: #d4a0ff;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+.caja-5:hover {
+  background-color: #bd6dff;
+}/*# sourceMappingURL=styles.css.map */

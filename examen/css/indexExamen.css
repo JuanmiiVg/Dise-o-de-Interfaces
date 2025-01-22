@@ -1,0 +1,133 @@
+.headerCotainer{
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: rgb(75, 69, 69);
+    align-items: center;
+
+    height: 9em;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+.elementosHeader{
+    width: 30%;
+    height: 10em;
+    /* background-color: rgba(87, 82, 82, 0.151); */
+    text-align:center;
+    z-index: 5;
+    align-items: center;
+    align-content: center;
+    z-index: 20;
+    
+}
+
+.subHeader{
+    display: grid;
+    height: 2em;
+    background-color: rgba(0, 0, 0, 0.486);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+   
+    grid-column-gap:0.5em;
+}
+.itemSubHeader{
+    padding: 5em;
+    background-color: black;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 4;
+    border-radius: 10px;
+
+}
+
+
+.contenedorGeneral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../img/origami-9082.mp4) ;
+}
+
+.contenedorizquierdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containerItemsIquierda{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+#heading{
+    padding: 5em;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+
+#logo{
+    height: 9em;
+}
+
+
+img{
+    max-width: 50em;
+    max-height: 20em;
+}
+
+
+a{
+    color: white;
+}
+
+.footer{
+    display: grid;
+    height: 5em;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+
+}
+
+/* S */
+video{
+    position: absolute;
+    z-index: -3;
+}
+
+.iconosSonidos{
+    width: 10%;
+    height: 10%;
+
+}
+
+.galeria{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/images.jpeg);
+   
+}
+.galeria:hover{
+    transition-duration: 2s;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/48.jpeg);
+
+}
+
+.botonesBonitos{
+    background-color: rgb(116, 111, 111); 
+}

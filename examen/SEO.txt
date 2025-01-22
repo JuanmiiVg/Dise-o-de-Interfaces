@@ -1,0 +1,5 @@
+Las ideas de seo que me han parecido oportunias son:
+	-Añadir las etiquetas meta y la del autor
+	-Añadir etiquetas tittle para las descripciones
+	-Palabras claves
+	

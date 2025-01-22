@@ -1,0 +1,31 @@
+.contenedor {
+  width: 1024px;
+  height: 650px;
+  display: grid;
+  grid-template-rows: 150px 200px auto;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas:
+    "header header"
+    "aside centro"
+    "footer footer";
+}
+
+.cabeza {
+  grid-area: header;
+  background: tomato;
+}
+
+.izquierda {
+  grid-area: aside;
+  background: gold;
+}
+
+.centro {
+  grid-area: centro;
+  background: deepskyblue;
+}
+
+.pie {
+  grid-area: footer;
+  background: lightgreen;
+}
