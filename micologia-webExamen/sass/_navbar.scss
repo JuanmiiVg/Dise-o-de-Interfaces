@@ -1,0 +1,12 @@
+.navbar {
+  background-color: $header-color !important;
+
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+  }
+
+  .nav-link:hover {
+    color: $primary-color !important;
+  }
+}

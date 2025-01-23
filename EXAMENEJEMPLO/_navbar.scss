@@ -1,0 +1,21 @@
+.navbar {
+    background-color: $dark-color;
+
+    .nav-link {
+        color: $light-color;
+        margin-right: $spacing-unit;
+
+        &:hover {
+            color: lighten($light-color, 20%);
+        }
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        color: $light-color;
+
+        &:hover {
+            color: lighten($light-color, 20%);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+// Importar variables y parciales
+@import 'variables';
+@import 'navbar';
+@import 'footer';
+@import 'cards';
+@import 'forms';
+
+// Estilos generales
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary-color;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+
+    &:hover {
+        color: darken($primary-color, 10%);
+    }
+}
+
+.galleryCarousel {
+    display: flex; 
+    width: 40px;
+    height: 40px;     
+}
+

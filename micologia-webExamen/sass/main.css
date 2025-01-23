@@ -1,0 +1,65 @@
+.navbar {
+  background-color: #2e7d32 !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;
+}
+.navbar .nav-link:hover {
+  color: #4caf50 !important;
+}
+
+footer {
+  background-color: #81c784;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+form .form-label {
+  font-weight: bold;
+  color: #333;
+}
+form .form-control {
+  border-radius: 5px;
+  border: 1px solid #4caf50;
+}
+form button {
+  background-color: #4caf50;
+  color: white;
+}
+form button:hover {
+  background-color: #3d8b40;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f8f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 5rem;
+  padding-top: 1rem;
+}
+
+.carousel-inner img {
+  border-radius: 5px;
+  max-height: 500px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}/*# sourceMappingURL=main.css.map */

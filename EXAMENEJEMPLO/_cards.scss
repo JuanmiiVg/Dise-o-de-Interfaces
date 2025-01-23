@@ -1,0 +1,22 @@
+// Mixin para las tarjetas
+@mixin card-style($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: 1px solid darken($bg-color, 10%);
+    border-radius: 0.25rem;
+    padding: $spacing-unit;
+}
+
+.card {
+    @include card-style($light-color, $text-color);
+
+    .card-title {
+        color: $primary-color;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,20 @@
+form {
+  .form-label {
+    font-weight: bold;
+    color: $text-color;
+  }
+
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid $primary-color;
+  }
+
+  button {
+    background-color: $primary-color;
+    color: white;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}

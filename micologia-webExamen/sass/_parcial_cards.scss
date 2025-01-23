@@ -1,0 +1,14 @@
+@mixin card {
+  border: 1px solid $primary-color;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+
+  .card-title {
+    color: $header-color;
+    font-weight: bold;
+  }
+
+  .card-text {
+    color: $text-color;
+  }
+}
