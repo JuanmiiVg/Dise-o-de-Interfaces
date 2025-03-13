@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Micología</title>
+    <!-- Mejora: Se agregó un favicon para una mejor apariencia en la pestaña del navegador -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,7 +15,8 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <!-- Mejora: Se agregó 'aria-label' para accesibilidad -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" aria-label="Menú de navegación principal">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Micología</a>
         <button
@@ -19,6 +24,9 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Alternar navegación"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,53 +42,44 @@
         </div>
       </div>
     </nav>
+    
     <div class="container mt-5 pt-5">
       <h1 class="text-center">Bienvenidos a Micología</h1>
 
-      <!-- Carrusel funcional -->
-      <div
-        id="carouselExample"
-        class="carousel slide mt-4"
-        data-bs-ride="carousel"
-      >
+      <!-- Mejora: Se agregó 'alt' descriptivo a cada imagen del carrusel para accesibilidad -->
+      <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/mushroom1.jpg" class="d-block w-100" alt="Hongo 1" />
+            <img src="img/mushroom1.jpg" class="d-block w-100" alt="Imagen de un hongo silvestre en el bosque" />
           </div>
           <div class="carousel-item">
-            <img src="img/mushroom2.jpg" class="d-block w-100" alt="Hongo 2" />
+            <img src="img/mushroom2.jpg" class="d-block w-100" alt="Primer plano de un hongo con textura rugosa" />
           </div>
           <div class="carousel-item">
-            <img src="img/mushroom3.jpg" class="d-block w-100" alt="Hongo 3" />
+            <img src="img/mushroom3.jpg" class="d-block w-100" alt="Grupo de hongos creciendo en un tronco" />
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">Anterior</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Siguiente</span>
         </button>
       </div>
     </div>
-    <footer>
+    
+    <!-- Mejora: Se agregó 'role' para mejorar accesibilidad -->
+    <footer role="contentinfo" class="text-center mt-4 p-3 bg-light">
       <p>© 2025 Micología - Diseñado con 🌱 y pasión</p>
       <p>
-        <a href="#">Política de privacidad</a> |
-        <a href="#">Términos y condiciones</a>
+        <a href="#" class="text-decoration-none">Política de privacidad</a> |
+        <a href="#" class="text-decoration-none">Términos y condiciones</a>
       </p>
     </footer>
+    
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
